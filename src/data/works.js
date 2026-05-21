@@ -1,0 +1,373 @@
+export const categories = [
+  "\u5546\u4e1a\u5e7f\u544a\u89c6\u89c9",
+  "\u54c1\u724c Banner / \u7535\u5546\u89c6\u89c9",
+  "\u6587\u65c5\u5730\u56fe / \u57ce\u5e02\u89c6\u89c9",
+  "\u4e2a\u4eba\u98ce\u683c / \u6982\u5ff5\u89c6\u89c9",
+  "\u56fe\u7247\u4f5c\u54c1"
+];
+
+export const works = [
+  {
+    "id": "kfc-poster",
+    "title": "KFC\u6d77\u62a5",
+    "category": "\u5546\u4e1a\u5e7f\u544a\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/04_AI%E6%B5%B7%E6%8A%A5/KFC%E6%B5%B7%E6%8A%A5.jpg",
+    "description": "\u5feb\u9910\u54c1\u724c\u5546\u4e1a\u6d77\u62a5\uff0c\u7a81\u51fa\u98df\u6b32\u3001\u4ea7\u54c1\u7126\u70b9\u548c\u6d3b\u52a8\u4f20\u64ad\u611f\u3002",
+    "tags": [
+      "\u5546\u4e1a\u5e7f\u544a",
+      "\u98df\u54c1\u6d77\u62a5",
+      "\u54c1\u724c\u89c6\u89c9"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u5feb\u9910\u54c1\u724c\u5546\u4e1a\u6d77\u62a5\uff0c\u7a81\u51fa\u98df\u6b32\u3001\u4ea7\u54c1\u7126\u70b9\u548c\u6d3b\u52a8\u4f20\u64ad\u611f\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": true
+  },
+  {
+    "id": "lv-banner-female",
+    "title": "LVbanner\u5973",
+    "category": "\u54c1\u724c Banner / \u7535\u5546\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/04_AI%E6%B5%B7%E6%8A%A5/LVbanner%E5%A5%B3.jpg",
+    "description": "\u5962\u4f88\u54c1\u98ce\u683c Banner \u89c6\u89c9\uff0c\u7ed3\u5408\u4eba\u7269\u3001\u670d\u9970\u548c\u54c1\u724c\u9ad8\u7ea7\u611f\u3002",
+    "tags": [
+      "\u54c1\u724cBanner",
+      "\u65f6\u5c1a\u89c6\u89c9",
+      "\u4eba\u7269\u6d77\u62a5"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u5962\u4f88\u54c1\u98ce\u683c Banner \u89c6\u89c9\uff0c\u7ed3\u5408\u4eba\u7269\u3001\u670d\u9970\u548c\u54c1\u724c\u9ad8\u7ea7\u611f\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  },
+  {
+    "id": "lv-banner-male",
+    "title": "LVbanner\u7537",
+    "category": "\u54c1\u724c Banner / \u7535\u5546\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/04_AI%E6%B5%B7%E6%8A%A5/LVbanner%E7%94%B7.jpg",
+    "description": "\u7537\u88c5\u5962\u4f88\u54c1 Banner \u89c6\u89c9\uff0c\u5f3a\u8c03\u4eba\u7269\u6c14\u573a\u3001\u6750\u8d28\u548c\u54c1\u724c\u8c03\u6027\u3002",
+    "tags": [
+      "\u54c1\u724cBanner",
+      "\u7537\u88c5\u89c6\u89c9",
+      "\u5546\u4e1a\u5e7f\u544a"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u7537\u88c5\u5962\u4f88\u54c1 Banner \u89c6\u89c9\uff0c\u5f3a\u8c03\u4eba\u7269\u6c14\u573a\u3001\u6750\u8d28\u548c\u54c1\u724c\u8c03\u6027\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  },
+  {
+    "id": "nike-running-banner",
+    "title": "nike-running-banner",
+    "category": "\u54c1\u724c Banner / \u7535\u5546\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/04_AI%E6%B5%B7%E6%8A%A5/nike-running-banner.jpg",
+    "description": "\u8fd0\u52a8\u54c1\u724c\u8dd1\u6b65 Banner\uff0c\u7a81\u51fa\u901f\u5ea6\u3001\u80fd\u91cf\u548c\u8fd0\u52a8\u573a\u666f\u3002",
+    "tags": [
+      "\u8fd0\u52a8\u89c6\u89c9",
+      "\u54c1\u724cBanner",
+      "\u5546\u4e1a\u5e7f\u544a"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u8fd0\u52a8\u54c1\u724c\u8dd1\u6b65 Banner\uff0c\u7a81\u51fa\u901f\u5ea6\u3001\u80fd\u91cf\u548c\u8fd0\u52a8\u573a\u666f\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  },
+  {
+    "id": "robot-vacuum-poster",
+    "title": "robot-vacuum-poster",
+    "category": "\u5546\u4e1a\u5e7f\u544a\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/04_AI%E6%B5%B7%E6%8A%A5/robot-vacuum-poster.jpg",
+    "description": "\u667a\u80fd\u626b\u5730\u673a\u5668\u4eba\u5546\u4e1a\u5e7f\u544a\u6d77\u62a5\uff0c\u7a81\u51fa\u4ea7\u54c1\u79d1\u6280\u5c5e\u6027\u548c\u6d01\u51c0\u751f\u6d3b\u65b9\u5f0f\u3002",
+    "tags": [
+      "\u5546\u4e1a\u6d77\u62a5",
+      "\u667a\u80fd\u5bb6\u5c45",
+      "\u4ea7\u54c1\u89c6\u89c9"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u667a\u80fd\u626b\u5730\u673a\u5668\u4eba\u5546\u4e1a\u5e7f\u544a\u6d77\u62a5\uff0c\u7a81\u51fa\u4ea7\u54c1\u79d1\u6280\u5c5e\u6027\u548c\u6d01\u51c0\u751f\u6d3b\u65b9\u5f0f\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": true
+  },
+  {
+    "id": "personal-style-poster",
+    "title": "\u4e2a\u4eba\u98ce\u683c\u6d77\u62a5",
+    "category": "\u4e2a\u4eba\u98ce\u683c / \u6982\u5ff5\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/04_AI%E6%B5%B7%E6%8A%A5/%E4%B8%AA%E4%BA%BA%E9%A3%8E%E6%A0%BC%E6%B5%B7%E6%8A%A5.jpg",
+    "description": "\u4e2a\u4eba\u98ce\u683c\u4e0e\u6982\u5ff5\u89c6\u89c9\u63a2\u7d22\uff0c\u878d\u5408\u4eba\u7269\u6c14\u8d28\u3001\u672a\u6765\u5149\u5f71\u4e0e\u6d77\u62a5\u6784\u6210\u3002",
+    "tags": [
+      "\u6982\u5ff5\u89c6\u89c9",
+      "\u4e2a\u4eba\u98ce\u683c",
+      "\u6d77\u62a5"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u4e2a\u4eba\u98ce\u683c\u4e0e\u6982\u5ff5\u89c6\u89c9\u63a2\u7d22\uff0c\u878d\u5408\u4eba\u7269\u6c14\u8d28\u3001\u672a\u6765\u5149\u5f71\u4e0e\u6d77\u62a5\u6784\u6210\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": true
+  },
+  {
+    "id": "agri-poster",
+    "title": "\u519c\u4ea7\u6d77\u62a5",
+    "category": "\u5546\u4e1a\u5e7f\u544a\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/04_AI%E6%B5%B7%E6%8A%A5/%E5%86%9C%E4%BA%A7%E6%B5%B7%E6%8A%A5.jpg",
+    "description": "\u519c\u4ea7\u54c1\u5546\u4e1a\u6d77\u62a5\uff0c\u7a81\u51fa\u81ea\u7136\u8d28\u611f\u3001\u4ea7\u54c1\u65b0\u9c9c\u5ea6\u548c\u4f20\u64ad\u753b\u9762\u611f\u3002",
+    "tags": [
+      "\u519c\u4ea7\u54c1",
+      "\u5546\u4e1a\u6d77\u62a5",
+      "\u98df\u54c1\u89c6\u89c9"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u519c\u4ea7\u54c1\u5546\u4e1a\u6d77\u62a5\uff0c\u7a81\u51fa\u81ea\u7136\u8d28\u611f\u3001\u4ea7\u54c1\u65b0\u9c9c\u5ea6\u548c\u4f20\u64ad\u753b\u9762\u611f\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  },
+  {
+    "id": "beijing-winter-city",
+    "title": "\u5317\u4eac\u51ac\u5b63\u57ce\u5e02\u56fe\u9274",
+    "category": "\u6587\u65c5\u5730\u56fe / \u57ce\u5e02\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/04_AI%E6%B5%B7%E6%8A%A5/%E5%8C%97%E4%BA%AC%E5%86%AC%E5%AD%A3%E5%9F%8E%E5%B8%82%E5%9B%BE%E9%89%B4.jpg",
+    "description": "\u51ac\u5b63\u57ce\u5e02\u6587\u65c5\u89c6\u89c9\uff0c\u7a81\u51fa\u5317\u4eac\u5730\u6807\u3001\u96ea\u666f\u6c1b\u56f4\u4e0e\u57ce\u5e02\u56fe\u9274\u611f\u3002",
+    "tags": [
+      "\u6587\u65c5\u89c6\u89c9",
+      "\u57ce\u5e02\u56fe\u9274",
+      "\u51ac\u5b63\u4e3b\u9898"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u51ac\u5b63\u57ce\u5e02\u6587\u65c5\u89c6\u89c9\uff0c\u7a81\u51fa\u5317\u4eac\u5730\u6807\u3001\u96ea\u666f\u6c1b\u56f4\u4e0e\u57ce\u5e02\u56fe\u9274\u611f\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": true
+  },
+  {
+    "id": "horror-movie-poster",
+    "title": "\u6050\u6016\u7535\u5f71\u6d77\u62a5",
+    "category": "\u5546\u4e1a\u5e7f\u544a\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/04_AI%E6%B5%B7%E6%8A%A5/%E6%81%90%E6%80%96%E7%94%B5%E5%BD%B1%E6%B5%B7%E6%8A%A5.jpg",
+    "description": "\u6050\u6016\u7535\u5f71\u98ce\u683c\u6d77\u62a5\uff0c\u5f3a\u5316\u6697\u8c03\u6c1b\u56f4\u3001\u4eba\u7269\u7126\u70b9\u548c\u60ac\u7591\u5f20\u529b\u3002",
+    "tags": [
+      "\u5f71\u89c6\u6d77\u62a5",
+      "\u60ca\u609a\u6c1b\u56f4",
+      "\u6d77\u62a5"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u6050\u6016\u7535\u5f71\u98ce\u683c\u6d77\u62a5\uff0c\u5f3a\u5316\u6697\u8c03\u6c1b\u56f4\u3001\u4eba\u7269\u7126\u70b9\u548c\u60ac\u7591\u5f20\u529b\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  },
+  {
+    "id": "dellbis-banner",
+    "title": "\u6234\u5c14\u6bd4\u65afbanner",
+    "category": "\u54c1\u724c Banner / \u7535\u5546\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/04_AI%E6%B5%B7%E6%8A%A5/%E6%88%B4%E5%B0%94%E6%AF%94%E6%96%AFbanner.jpg",
+    "description": "\u54c1\u724c Banner \u89c6\u89c9\uff0c\u9002\u914d\u6a2a\u5e45\u5c55\u793a\u548c\u5546\u4e1a\u4f20\u64ad\u5165\u53e3\u3002",
+    "tags": [
+      "\u54c1\u724cBanner",
+      "\u5546\u4e1a\u89c6\u89c9",
+      "\u6d3b\u52a8\u5165\u53e3"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u54c1\u724c Banner \u89c6\u89c9\uff0c\u9002\u914d\u6a2a\u5e45\u5c55\u793a\u548c\u5546\u4e1a\u4f20\u64ad\u5165\u53e3\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  },
+  {
+    "id": "headphone-poster",
+    "title": "\u8033\u673a\u6d77\u62a5",
+    "category": "\u54c1\u724c Banner / \u7535\u5546\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/04_AI%E6%B5%B7%E6%8A%A5/%E8%80%B3%E6%9C%BA%E6%B5%B7%E6%8A%A5.jpg",
+    "description": "\u6570\u7801\u8033\u673a\u4ea7\u54c1\u6d77\u62a5\uff0c\u4f7f\u7528\u6f02\u6d6e\u6784\u56fe\u548c\u9713\u8679\u7ebf\u6761\u5f3a\u5316\u58f0\u97f3\u80fd\u91cf\u3002",
+    "tags": [
+      "\u7535\u5546\u89c6\u89c9",
+      "\u6570\u7801\u4ea7\u54c1",
+      "Banner"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u6570\u7801\u8033\u673a\u4ea7\u54c1\u6d77\u62a5\uff0c\u4f7f\u7528\u6f02\u6d6e\u6784\u56fe\u548c\u9713\u8679\u7ebf\u6761\u5f3a\u5316\u58f0\u97f3\u80fd\u91cf\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": true
+  },
+  {
+    "id": "yunnan-tea-horse-road",
+    "title": "yunnan-tea-horse-road",
+    "category": "\u6587\u65c5\u5730\u56fe / \u57ce\u5e02\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/05_%E5%9B%BE%E7%89%87%E4%BD%9C%E5%93%81/yunnan-tea-horse-road.jpg",
+    "description": "\u4e91\u5357\u8336\u9a6c\u53e4\u9053\u4e3b\u9898\u6587\u65c5\u89c6\u89c9\uff0c\u5448\u73b0\u5730\u57df\u6587\u5316\u548c\u65c5\u884c\u60f3\u8c61\u3002",
+    "tags": [
+      "\u6587\u65c5\u89c6\u89c9",
+      "\u5730\u57df\u6587\u5316",
+      "\u57ce\u5e02\u5ba3\u4f20"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u4e91\u5357\u8336\u9a6c\u53e4\u9053\u4e3b\u9898\u6587\u65c5\u89c6\u89c9\uff0c\u5448\u73b0\u5730\u57df\u6587\u5316\u548c\u65c5\u884c\u60f3\u8c61\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  },
+  {
+    "id": "beijing-relief",
+    "title": "\u5317\u4eac\u57ce\u5e02\u6d6e\u96d5",
+    "category": "\u6587\u65c5\u5730\u56fe / \u57ce\u5e02\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/05_%E5%9B%BE%E7%89%87%E4%BD%9C%E5%93%81/%E5%8C%97%E4%BA%AC%E5%9F%8E%E5%B8%82%E6%B5%AE%E9%9B%95.jpg",
+    "description": "\u5317\u4eac\u57ce\u5e02\u6d6e\u96d5\u98ce\u683c\u89c6\u89c9\uff0c\u5c06\u57ce\u5e02\u5efa\u7b51\u8f6c\u5316\u4e3a\u7acb\u4f53\u7eaa\u5ff5\u611f\u753b\u9762\u3002",
+    "tags": [
+      "\u57ce\u5e02\u89c6\u89c9",
+      "\u6d6e\u96d5\u98ce\u683c",
+      "\u6587\u65c5\u6d77\u62a5"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u5317\u4eac\u57ce\u5e02\u6d6e\u96d5\u98ce\u683c\u89c6\u89c9\uff0c\u5c06\u57ce\u5e02\u5efa\u7b51\u8f6c\u5316\u4e3a\u7acb\u4f53\u7eaa\u5ff5\u611f\u753b\u9762\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  },
+  {
+    "id": "city-three-color",
+    "title": "\u57ce\u5e02\u4e09\u8272\u6d77\u62a5",
+    "category": "\u4e2a\u4eba\u98ce\u683c / \u6982\u5ff5\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/05_%E5%9B%BE%E7%89%87%E4%BD%9C%E5%93%81/%E5%9F%8E%E5%B8%82%E4%B8%89%E8%89%B2%E6%B5%B7%E6%8A%A5.jpg",
+    "description": "\u57ce\u5e02\u4e3b\u9898\u4e09\u8272\u6d77\u62a5\u5b9e\u9a8c\uff0c\u5f3a\u8c03\u56fe\u5f62\u79e9\u5e8f\u3001\u8272\u5f69\u5173\u7cfb\u548c\u89c6\u89c9\u51b2\u51fb\u3002",
+    "tags": [
+      "\u6982\u5ff5\u89c6\u89c9",
+      "\u57ce\u5e02\u6d77\u62a5",
+      "\u56fe\u5f62\u8bbe\u8ba1"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u57ce\u5e02\u4e3b\u9898\u4e09\u8272\u6d77\u62a5\u5b9e\u9a8c\uff0c\u5f3a\u8c03\u56fe\u5f62\u79e9\u5e8f\u3001\u8272\u5f69\u5173\u7cfb\u548c\u89c6\u89c9\u51b2\u51fb\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  },
+  {
+    "id": "calendar-visual",
+    "title": "\u65e5\u5386",
+    "category": "\u56fe\u7247\u4f5c\u54c1",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/05_%E5%9B%BE%E7%89%87%E4%BD%9C%E5%93%81/%E6%97%A5%E5%8E%86.jpg",
+    "description": "\u65e5\u5386\u4e3b\u9898\u56fe\u7247\u4f5c\u54c1\uff0c\u7ed3\u5408\u8282\u594f\u6392\u7248\u3001\u89c6\u89c9\u7b26\u53f7\u548c\u5185\u5bb9\u88c5\u9970\u3002",
+    "tags": [
+      "\u56fe\u7247\u4f5c\u54c1",
+      "\u65e5\u5386\u8bbe\u8ba1",
+      "\u89c6\u89c9\u6392\u7248"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u65e5\u5386\u4e3b\u9898\u56fe\u7247\u4f5c\u54c1\uff0c\u7ed3\u5408\u8282\u594f\u6392\u7248\u3001\u89c6\u89c9\u7b26\u53f7\u548c\u5185\u5bb9\u88c5\u9970\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  },
+  {
+    "id": "henan-travel-guide",
+    "title": "\u6cb3\u5357\u65c5\u6e38\u653b\u7565",
+    "category": "\u6587\u65c5\u5730\u56fe / \u57ce\u5e02\u89c6\u89c9",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/05_%E5%9B%BE%E7%89%87%E4%BD%9C%E5%93%81/%E6%B2%B3%E5%8D%97%E6%97%85%E6%B8%B8%E6%94%BB%E7%95%A5.jpg",
+    "description": "\u6cb3\u5357\u6587\u65c5\u653b\u7565\u89c6\u89c9\uff0c\u5c06\u5730\u6807\u3001\u8def\u7ebf\u548c\u65c5\u884c\u4fe1\u606f\u6574\u5408\u4e3a\u793e\u5a92\u5c01\u9762\u3002",
+    "tags": [
+      "\u65c5\u6e38\u653b\u7565",
+      "\u57ce\u5e02\u89c6\u89c9",
+      "\u4fe1\u606f\u6574\u5408"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u6cb3\u5357\u6587\u65c5\u653b\u7565\u89c6\u89c9\uff0c\u5c06\u5730\u6807\u3001\u8def\u7ebf\u548c\u65c5\u884c\u4fe1\u606f\u6574\u5408\u4e3a\u793e\u5a92\u5c01\u9762\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": true
+  },
+  {
+    "id": "zodiac-visual",
+    "title": "\u751f\u8096",
+    "category": "\u56fe\u7247\u4f5c\u54c1",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/05_%E5%9B%BE%E7%89%87%E4%BD%9C%E5%93%81/%E7%94%9F%E8%82%96.jpg",
+    "description": "\u751f\u8096\u4e3b\u9898\u56fe\u7247\u4f5c\u54c1\uff0c\u63a2\u7d22\u4f20\u7edf\u6587\u5316\u7b26\u53f7\u4e0e\u73b0\u4ee3\u89c6\u89c9\u8868\u8fbe\u3002",
+    "tags": [
+      "\u4f20\u7edf\u6587\u5316",
+      "\u56fe\u7247\u4f5c\u54c1",
+      "\u6982\u5ff5\u89c6\u89c9"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u751f\u8096\u4e3b\u9898\u56fe\u7247\u4f5c\u54c1\uff0c\u63a2\u7d22\u4f20\u7edf\u6587\u5316\u7b26\u53f7\u4e0e\u73b0\u4ee3\u89c6\u89c9\u8868\u8fbe\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  },
+  {
+    "id": "journey-west",
+    "title": "\u897f\u6e38",
+    "category": "\u56fe\u7247\u4f5c\u54c1",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/05_%E5%9B%BE%E7%89%87%E4%BD%9C%E5%93%81/%E8%A5%BF%E6%B8%B8.jpg",
+    "description": "\u897f\u6e38\u4e3b\u9898\u89c6\u89c9\u521b\u4f5c\uff0c\u878d\u5408\u4e1c\u65b9\u795e\u8bdd\u3001\u4eba\u7269\u6c1b\u56f4\u548c\u6545\u4e8b\u60f3\u8c61\u3002",
+    "tags": [
+      "\u795e\u8bdd\u9898\u6750",
+      "\u56fe\u7247\u4f5c\u54c1",
+      "\u4e1c\u65b9\u5e7b\u60f3"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u897f\u6e38\u4e3b\u9898\u89c6\u89c9\u521b\u4f5c\uff0c\u878d\u5408\u4e1c\u65b9\u795e\u8bdd\u3001\u4eba\u7269\u6c1b\u56f4\u548c\u6545\u4e8b\u60f3\u8c61\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  },
+  {
+    "id": "watermelon-factory",
+    "title": "\u897f\u74dc\u6c41\u5de5\u5382",
+    "category": "\u56fe\u7247\u4f5c\u54c1",
+    "image": "images/AIGC%E4%BD%9C%E5%93%81%E9%9B%86%E7%B4%A0%E6%9D%90/05_%E5%9B%BE%E7%89%87%E4%BD%9C%E5%93%81/%E8%A5%BF%E7%93%9C%E6%B1%81%E5%B7%A5%E5%8E%82.jpg",
+    "description": "\u897f\u74dc\u6c41\u5de5\u5382\u4e3b\u9898\u521b\u610f\u89c6\u89c9\uff0c\u5f3a\u8c03\u8da3\u5473\u573a\u666f\u3001\u4ea7\u54c1\u8054\u60f3\u548c\u753b\u9762\u53d9\u4e8b\u3002",
+    "tags": [
+      "\u521b\u610f\u89c6\u89c9",
+      "\u56fe\u7247\u4f5c\u54c1",
+      "\u573a\u666f\u8bbe\u8ba1"
+    ],
+    "tools": [
+      "Midjourney",
+      "Photoshop",
+      "Figma"
+    ],
+    "detail": "\u897f\u74dc\u6c41\u5de5\u5382\u4e3b\u9898\u521b\u610f\u89c6\u89c9\uff0c\u5f3a\u8c03\u8da3\u5473\u573a\u666f\u3001\u4ea7\u54c1\u8054\u60f3\u548c\u753b\u9762\u53d9\u4e8b\u3002 \u4f5c\u54c1\u7528\u4e8e\u4e2a\u4eba\u4f5c\u54c1\u96c6\u5c55\u793a\uff0c\u91cd\u70b9\u4f53\u73b0 AIGC \u89c6\u89c9\u751f\u6210\u3001\u540e\u671f\u5904\u7406\u548c\u5546\u4e1a\u5316\u7248\u5f0f\u6574\u5408\u80fd\u529b\u3002",
+    "featured": false
+  }
+];
+
+export const featuredWorks = works.filter((work) => work.featured).slice(0, 6);
