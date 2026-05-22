@@ -34,14 +34,15 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Copy uploaded image folders
+      - name: Copy uploaded material folders
         shell: bash
         run: |
-          mkdir -p "dist/images/AIGC作品集素材"
-          for dir in "01_AI短剧分镜" "02_人物设定" "03_场景设定" "04_AI海报" "05_图片作品" "06_视频作品" "07_个人头像与简介"; do
-            if [ -d "$dir" ]; then
-              cp -R "$dir" "dist/images/AIGC作品集素材/"
-            fi
+          for prefix in 01_ 02_ 03_ 04_ 05_ 06_ 07_; do
+            for dir in "$prefix"*; do
+              if [ -d "$dir" ]; then
+                cp -R "$dir" "dist/"
+              fi
+            done
           done
 
       - name: Upload artifact
